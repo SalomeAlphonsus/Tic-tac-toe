@@ -87,7 +87,7 @@ const GamePage = () => {
       return;
     }
   
-    const wasXTurn = xIsNext; // 🔥 Store before toggling
+    const wasXTurn = xIsNext; //Store before toggling
     setXIsNext(!xIsNext);
   
     // SOLO MODE: Only let AI play if it was X's turn and solo is enabled
